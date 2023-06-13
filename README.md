@@ -1,5 +1,5 @@
-# PACDA
-Official Code for PACDA (CVPR Workshop - 4th CLVision)
+# Official implementation for PaCDA
+[[CLVision Workshop - CVPR 2023] Continual Domain Adaptation Through Pruning-Aided Domain-Specific Weight Modulation](https://openaccess.thecvf.com/content/CVPR2023W/CLVision/html/B_Continual_Domain_Adaptation_Through_Pruning-Aided_Domain-Specific_Weight_Modulation_CVPRW_2023_paper.html)
 
 ## Commands for running
 ### General instructions
@@ -35,3 +35,15 @@ python image_prune_target_finetune.py --pf_c 0.3 --output ./debug_1/ACPR --outpu
 ```
 ## Acknowledgement
 The code is based on [SHOT (ICML, 2020)](https://github.com/tim-learn/SHOT)
+## Citation
+If you find this work useful, please feel free to cite this work.
+```
+@InProceedings{B_2023_CVPR,
+    author    = {B, Prasanna and Sanyal, Sunandini and Babu, R. Venkatesh},
+    title     = {Continual Domain Adaptation Through Pruning-Aided Domain-Specific Weight Modulation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2023},
+    pages     = {2456-2462}
+}
+```
